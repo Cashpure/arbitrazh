@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <link rel="stylesheet" href="style/reset.css">
+   <link rel="stylesheet" href="style/fonts.css">
+   <link rel="stylesheet" href="style/style.css">
+   <title>Arbitrazh</title>
+</head>
+
+<body>
+   <div class="wrapper">
+      <header class="header">
+         <div class="header-nav">
+            <ul class="header-nav__list">
+               <li class="header-nav__item header-nav__item--active ">
+                  <a href="#" class="header-nav__item-link">
+                     <img alt="logo" class="header__logo" src="/svg/logo.svg">
+                     Арбитражный суд Ульяновской области</a>
+                  <div class="header-nav__line"></div>
+               </li>
+               <li class="header-nav__item">
+                  <a href="main.html" class="header-nav__item-link">Главная</a>
+                  <div class="header-nav__line"></div>
+               </li>
+               <li class="header-nav__item">
+                  <a href="info.html" class="header-nav__item-link">Информация</a>
+                  <div class="header-nav__line"></div>
+               </li>
+               <li class="header-nav__item">
+                  <a href="chats.html" class="header-nav__item-link">Чаты</a>
+               </li>
+            </ul>
+         </div>
+         <div class="header-login">
+            <img alt="char" src="/svg/char.svg" class="header-login__img">
+            <div class="header-login__texts">
+               <div class="header-login__texts-admin">Admin</div>
+               <a href="index.html" class="header-login__texts-out">Выйти</a>
+            </div>
+            <a href="chats.html" class="header-login__img-chat">
+               <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd"
+                     d="M30 2V25.3333H21.6667V32L10 25.3333H0V2H30ZM26.6667 5.33333H3.33333V22H10.8852L18.3333 26.255V22H26.6667V5.33333Z"
+                     fill="black" />
+                  <circle cx="29" cy="3" r="3" fill="#FF5252" />
+               </svg>
+            </a>
+         </div>
+      </header>
+      <main class="main">
+         <div class="container">
+            <div class="main-block">
+               <div class="main-block__top">
+                  <h2 class="main-block__top-title">Единое окно новостей и объявлений компании</h2>
+                  <div class="main-block__top-buttons">
+                     <div class="button-category">
+                        Категории
+                        <ul class="button-category__list">
+                           <li class="button-category__list-item button-category__list-item-all">Все</li>
+                           <li class="button-category__list-item button-category__list-item-dr">День Рождения</li>
+                           <li class="button-category__list-item button-category__list-item-event">Ивенты</li>
+                           <li class="button-category__list-item button-category__list-item-dead">Дэдлайны</li>
+                        </ul>
+                     </div>
+                     <div class="button button-share">Поделиться</div>
+                     <div class="button-choose">
+                        Выберите тип новости
+                        <ul class="button-choose__list">
+                           <li class="button-choose__list-item button-choose__list-item-dr">День Рождения</li>
+                           <li class="button-choose__list-item button-choose__list-item-event">Ивенты</li>
+                           <li class="button-choose__list-item button-choose__list-item-dead">Дэдлайны</li>
+                        </ul>
+                     </div>
+                     <div class="button button-create">Создать объявление</div>
+                  </div>
+               </div>
+               <div class="main-block__body">
+                  <ul class="main-block__news-list">
+                     <li class="main-block__news-item dead">
+                        <div class="main-block__news-title">Внедрение нового веб-сайта для внутренней коммуникации сотрудников</div>
+                        <div class="main-block__news-info">
+                           <div class="main-block__news-info-inner">
+                              <div class="news__date">23.06.2025</div>
+                              <div class="news__autor">Автор: Admin</div>
+                           </div>
+                           <div class="news__button button">Подробнее...</div>
+                        </div>
+                        <div class="main-block__news-description main-block__news-description--disabled"></div>
+                     </li>
+                     <li class="main-block__news-item dr">
+                        <div class="main-block__news-title">День рождения начальника</div>
+                        <div class="main-block__news-info">
+                           <div class="main-block__news-info-inner">
+                              <div class="news__date">23.06.2025</div>
+                              <div class="news__autor">Автор: <span class="autor">Admin</span></div>
+                           </div>
+                           <div class="news__button button">Подробнее...</div>
+                        </div>
+                        <div class="main-block__news-description main-block__news-description--disabled"></div>
+                     </li>
+                     <li class="main-block__news-item event">
+                        <div class="main-block__news-title">Корпоратив</div>
+                        <div class="main-block__news-info">
+                           <div class="main-block__news-info-inner">
+                              <div class="news__date">23.06.2025</div>
+                              <div class="news__autor">Автор: Admin</div>
+                           </div>
+                           <div class="news__button button">Подробнее...</div>
+                        </div>
+                        <div class="main-block__news-description main-block__news-description--disabled"></div>
+                     </li>
+                  </ul>
+                  <div class="main-block__news-form main-block__news-form--disabled">
+                     <textarea placeholder="Введите заголовок." class="main-block__input main-block__input-title"></textarea>
+                     <textarea placeholder="Введите текст." class="main-block__input main-block__input-text"></textarea>
+                     <button class="button publish-button" type="submit">Опубликовать</button>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </main>
+   </div>
+
+
+   <script src="script/script-main.js"></script>
+</body>
+
+</html>

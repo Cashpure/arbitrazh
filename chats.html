@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <link rel="stylesheet" href="style/reset.css">
+   <link rel="stylesheet" href="style/fonts.css">
+   <link rel="stylesheet" href="style/style.css">
+   <title>Arbitrazh</title>
+</head>
+
+<body>
+   <div class="wrapper">
+      <header class="header">
+         <div class="header-nav">
+            <ul class="header-nav__list">
+               <li class="header-nav__item header-nav__item--active ">
+                  <a href="#" class="header-nav__item-link">
+                     <img alt="logo" class="header__logo" src="/svg/logo.svg">
+                     Арбитражный суд Ульяновской области</a>
+                  <div class="header-nav__line"></div>
+               </li>
+               <li class="header-nav__item">
+                  <a href="main.html" class="header-nav__item-link">Главная</a>
+                  <div class="header-nav__line"></div>
+               </li>
+               <li class="header-nav__item">
+                  <a href="#" class="header-nav__item-link">Информация</a>
+                  <div class="header-nav__line"></div>
+               </li>
+               <li class="header-nav__item">
+                  <a href="chats.html" class="header-nav__item-link">Чаты</a>
+               </li>
+            </ul>
+         </div>
+         <div class="header-login">
+            <img alt="char" src="/svg/char.svg" class="header-login__img">
+            <div class="header-login__texts">
+               <div class="header-login__texts-admin">Admin</div>
+               <a href="index.html" class="header-login__texts-out">Выйти</a>
+            </div>
+            <a href="chats.html" class="header-login__img-chat">
+               <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd"
+                     d="M30 2V25.3333H21.6667V32L10 25.3333H0V2H30ZM26.6667 5.33333H3.33333V22H10.8852L18.3333 26.255V22H26.6667V5.33333Z"
+                     fill="black" />
+                  <circle cx="29" cy="3" r="3" fill="#FF5252" />
+               </svg>
+            </a>
+         </div>
+      </header>
+      <main class="main">
+         <div class="container">
+            <div class="main-chat">
+               <div class="main-chat__top">
+                  <h2 class="main-chat__top-title">Сообщения</h2>
+                  <input type="text" placeholder="Поиск" class="main-chat__top-search">
+               </div>
+               <div class="main-chat__body">
+                  <div class="main-chat__body-left">
+                     <div class="main-chat__left-button button">
+                        Добавить чат
+                     </div>
+                     <ul class="main-chat__left-list">
+                        <li class="main-chat__left-item">
+                           <div class="main-chat__item-author">Admin</div>
+                           <div class="main-chat__item-info">
+                              <div class="main-chat__time">11:11</div>
+                              <div class="main-chat__date">23.06.2025</div>
+                           </div>
+                        </li>
+                        <li class="main-chat__left-item">
+                           <div class="main-chat__item-author">Вася</div>
+                           <div class="main-chat__item-info">
+                              <div class="main-chat__time">11:11</div>
+                              <div class="main-chat__date">23.06.2025</div>
+                           </div>
+                        </li>
+                        <li class="main-chat__left-item">
+                           <div class="main-chat__item-author">Виталик</div>
+                           <div class="main-chat__item-info">
+                              <div class="main-chat__time">11:11</div>
+                              <div class="main-chat__date">23.06.2025</div>
+                           </div>
+                        </li>
+                        <li class="main-chat__left-item">
+                           <div class="main-chat__item-author">Adam</div>
+                           <div class="main-chat__item-info">
+                              <div class="main-chat__time">11:11</div>
+                              <div class="main-chat__date">23.06.2025</div>
+                           </div>
+                        </li>
+                        <li class="main-chat__left-item">
+                           <div class="main-chat__item-author"></div>
+                           <div class="main-chat__item-info">
+                              <div class="main-chat__time"></div>
+                              <div class="main-chat__date"></div>
+                           </div>
+                        </li>
+                        <li class="main-chat__left-item">
+                           <div class="main-chat__item-author"></div>
+                           <div class="main-chat__item-info">
+                              <div class="main-chat__time"></div>
+                              <div class="main-chat__date"></div>
+                           </div>
+                        </li>
+                        <li class="main-chat__left-item">
+                           <div class="main-chat__item-author"></div>
+                           <div class="main-chat__item-info">
+                              <div class="main-chat__time"></div>
+                              <div class="main-chat__date"></div>
+                           </div>
+                        </li>
+                     </ul>
+                  </div>
+                  <div class="main-chat__body-right">
+                     <div class="main-chat__right-window">
+                        <div class="main-chat__right-admin">Admin</div>
+                        <div class="main-chat__right-date">
+                           29 мая
+                        </div>
+                        <div class="main-chat__right-message">
+                           <div class="main-chat__message-info">
+                              <div class="main-chat__message-who">Вы</div>
+                              <div class="main-chat__message-time">11:11</div>
+                           </div>
+                           <div class="main-chat__message-text">
+                              Очень на это надеюсь!
+                           </div>
+                        </div>
+                     </div>
+                     <div class="main-chat__right-input-inner">
+                        <a href="#" class="main-chat__right-input-icon">
+                           <svg width="40" height="40" viewBox="0 0 40 40" fill="none"
+                              xmlns="http://www.w3.org/2000/svg">
+                              <circle cx="20" cy="20" r="20" fill="#BBBBBB" />
+                              <path
+                                 d="M13.469 20.688L22.219 11.938C22.313 11.844 23.063 11.094 24.25 10.688C25.906 10.157 27.594 10.594 28.938 11.938C30.313 13.282 30.719 14.938 30.188 16.594C29.813 17.782 29.032 18.594 28.938 18.688L19.532 28.094C17.907 29.719 13.844 31.813 10.094 28.094C6.37496 24.375 8.49996 20.281 10.094 18.688L20.188 8.56299C20.563 8.18799 21.157 8.18799 21.532 8.56299C21.907 8.93799 21.907 9.53199 21.532 9.90699L11.469 20.032C11.313 20.157 8.15596 23.438 11.469 26.751C14.688 29.97 17.844 27.095 18.188 26.751L27.594 17.313C27.594 17.313 28.125 16.782 28.375 16.032C28.688 15.032 28.469 14.157 27.594 13.282C25.719 11.407 23.906 12.969 23.563 13.282L14.813 22.001C14.5 22.314 14.282 22.845 14.813 23.376C15.344 23.907 15.844 23.657 16.157 23.376L22.22 17.313C22.595 16.969 23.22 16.969 23.564 17.313C23.939 17.688 23.939 18.313 23.564 18.688L17.501 24.719C16.657 25.532 14.938 26.188 13.47 24.719C11.97 23.25 12.625 21.5 13.469 20.688Z"
+                                 fill="black" />
+                           </svg>
+                        </a>
+                        <input type="text" placeholder="Сообщение..." class="main-chat__right-input">
+                        <button type="submit" class="main-chat__right-input-button">
+                           <img src="/svg/enter.svg" alt="btn">
+                        </button>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </main>
+   </div>
+
+   <script src="script/script-chat.js"></script>
+</body>
